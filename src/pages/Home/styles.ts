@@ -12,7 +12,10 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
-    width: 100%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 `
 
