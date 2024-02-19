@@ -9,6 +9,15 @@ export const CountdownContainer = styled.div`
   display: flex;
   gap: 1rem;
 
+  @media (max-width: 768px) {
+    font-size: 3rem;
+    line-height: 3rem;
+    gap: 0.4rem;
+    span {
+      padding: 2rem 0.4rem;
+    }
+  }
+
   span {
     background-color: ${({ theme }) => theme['gray-700']};
     padding: 2rem 1rem;

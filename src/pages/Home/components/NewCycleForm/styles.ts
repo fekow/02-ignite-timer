@@ -21,6 +21,10 @@ const BaseInputStyles = styled.input`
   padding: 0 0.5rem;
   color: ${({ theme }) => theme['gray-100']};
 
+  @media (max-width: 768px) {
+    padding: 0 0.25rem;
+    font-size: 1.05rem;
+  }
   &::placeholder {
     color: ${({ theme }) => theme['gray-500']};
   }
